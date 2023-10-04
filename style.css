@@ -2,6 +2,48 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body{
+    background-color: #b2bec3;
+
+}
+
+.vizitka{
+    background-color: white;
+    text-align: center;
+    margin: 150px;
+    width: 550px;
+}
+
+img{
+    border-radius: 50%;
+    display: inline-flexbox;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    float: left;
+    margin: 0;
+}
+
+.foto{
+    text-align: right;
+    float: right;
+}
+
+h1{
+    text-align: left;
+    color: #d63031;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text{
+    text-align: justify;
+    font-size: 18px;
+    padding: 30px;
+}
+
+
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
