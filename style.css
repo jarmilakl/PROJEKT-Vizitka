@@ -29,6 +29,10 @@ img{
 .foto{
     text-align: right;
     float: right;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    margin-left: 0;
 }
 
 h1{
@@ -36,13 +40,41 @@ h1{
     color: #d63031;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0;
 }
 
 .text{
     text-align: justify;
     font-size: 18px;
-    padding: 30px;
+    padding: 0 30px;
+    display: block;
+    margin-top: 0;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px;
+}
+
+.twitter{
+    background-color: #1da1f2;    
+}   
+    
+
+.facebook{
+    background-color: #3b5998;
+}
+.odkazy{
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
 
 
 
